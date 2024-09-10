@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script>
+        // Disable right-click
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+    </script>
 </head>
 <body>
     <div class="resume-container">
@@ -16,33 +31,31 @@
             <div class="content">
                 <div class="text">
                     <ul>
-                        <li>Hi, I am <strong>Akshat Raj</strong>,  1st year <strong>Computer Science and Engineering</strong> Student studying at <strong>LPU,Punjab</strong>.</li>
-                        <li>I am interested in <strong>WebDev, Data Structures& Algorithms, Competitive programming</strong> and <strong>AI-ML</strong>.</li>
+                        <li>Hi, I am <strong>Akshat Raj</strong>, 1st year <strong>Computer Science and Engineering</strong> Student studying at <strong>LPU, Punjab</strong>.</li>
+                        <li>I am interested in <strong>WebDev, Data Structures & Algorithms, Competitive programming</strong> and <strong>AI-ML</strong>.</li>
                         <li>I also love to create small apps.</li>
-                        <li>Birthday: <strong>1 September 2004 </strong></li>
+                        <li>Birthday: <strong>1 September 2004</strong></li>
                         <li>City: <strong>Lucknow, UP, India</strong></li>
                     </ul>
                 </div>
                 <div class="photo">
-                    <img src="photo.jpg.jpg" alt="Akshat raj">
+                    <img src="photo.jpg" alt="Akshat Raj">
                 </div>
             </div>
         </section>
-    </section>
-    <section class="contact-me">
-        <h2>CONTACT ME</h2>
-        <div class="contact-details">
-            <p><strong>Contact Details:</strong></p>
-            <ul>
-                <li>Email ID: <a href="mailto:akshatrajar2004@gmail.com">akshatrajar2004@gmail.com</a></li>
-                <li>Contact No: <a href="tel:6388427366">6388427366</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/akshatraj2004" target="_blank">akshatraj2004</a></li>
-                <li>Twitter: <a href="https://twitter.com/akshatrajar2004" target="_blank">akshatraj2004</a></li>
-                <li>Instagram: <a href="https://www.instagram.com/akshatraj2004" target="_blank">akshatrajar2004</a></li>
-            </ul>
-        </div>
-    </section>
-</section>
+        <section class="contact-me">
+            <h2>CONTACT ME</h2>
+            <div class="contact-details">
+                <p><strong>Contact Details:</strong></p>
+                <ul>
+                    <li>Email ID: <a href="mailto:akshatrajar2004@gmail.com">akshatrajar2004@gmail.com</a></li>
+                    <li>Contact No: <a href="tel:6388427366">6388427366</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/akshatraj2004" target="_blank">akshatraj2004</a></li>
+                    <li>Twitter: <a href="https://twitter.com/akshatrajar2004" target="_blank">akshatraj2004</a></li>
+                    <li>Instagram: <a href="https://www.instagram.com/akshatraj2004" target="_blank">akshatrajar2004</a></li>
+                </ul>
+            </div>
+        </section>
         <section class="educational-details">
             <h2>EDUCATIONAL DETAILS</h2>
             <table>
@@ -70,7 +83,7 @@
                     <tr>
                         <td>B-Tech</td>
                         <td>Lovely Professional University</td>
-                        <td>Pursing</td>
+                        <td>Pursuing</td>
                         <td>Pursuing</td>
                     </tr>
                 </tbody>
